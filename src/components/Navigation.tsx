@@ -1,6 +1,5 @@
 import { Disclosure, Menu, Transition } from "@headlessui/react";
 import { BellIcon, MenuIcon, PhoneIcon, XIcon } from "@heroicons/react/outline";
-import { Fragment } from "react";
 
 import LOGO from "../assets/logo.webp";
 
