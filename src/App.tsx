@@ -1,7 +1,14 @@
 import "./App.css";
+import Main from "./components/Main";
+import Navigation from "./components/Navigation";
 
 function App() {
-  return <h1 className="text-3xl font-bold underline">Hello world!</h1>;
+  return (
+    <main>
+      <Navigation />
+      <Main />
+    </main>
+  );
 }
 
 export default App;
